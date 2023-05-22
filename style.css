@@ -126,7 +126,6 @@ body {
 .thank-image {
   width: 162px;
   margin-top: 45px;
-  margin-left: 121px;
 }
 .output {
   width: 193px;
@@ -137,7 +136,6 @@ body {
   align-content: center;
   justify-content: center;
   margin-top: 32px;
-  margin-left: 110px;
   flex-wrap: wrap;
 }
 
@@ -153,6 +151,7 @@ body {
 
 .second {
   display: none;
+  align-items: center;
 }
 
 .white {
@@ -168,7 +167,7 @@ body {
   line-height: 35px;
   color: white;
   margin-top: 32px;
-  margin-left: 135px;
+  width: fit-content;
 }
 
 .long {
@@ -181,7 +180,6 @@ body {
   color: #969fad;
   width: 340px;
   margin-top: 7px;
-  margin-left: 32px;
 }
 
 @media screen and (max-width: 768px) {
@@ -244,13 +242,13 @@ body {
   .thank-image {
     width: 144px;
     margin-top: 34px;
-    margin-left: 92px;
+    margin-left: 0px;
   }
 
   .output {
     width: 168px;
     height: 32px;
-    margin-left: 80px;
+    margin-left: 0px;
     margin-top: 24px;
   }
 
@@ -264,15 +262,15 @@ body {
     line-height: 30px;
     margin-top: 24px;
     width: 279px;
-    margin-left: 24px;
     text-align: center;
+    width: fit-content;
   }
 
   .long {
     font-weight: 400;
-font-size: 14px;
-line-height: 22px;
-width: 279px;
-margin-top: 10px;
+    font-size: 14px;
+    line-height: 22px;
+    width: 279px;
+    margin-top: 10px;
   }
 }
