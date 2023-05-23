@@ -180,6 +180,7 @@ body {
   color: #969fad;
   width: 340px;
   margin-top: 7px;
+  display: none;
 }
 
 @media screen and (max-width: 768px) {

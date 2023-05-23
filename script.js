@@ -18,6 +18,7 @@ inputs.forEach(function (input) {
         inputTwo.classList.add("white");
         output.innerHTML = storeValue;
         change.innerHTML = "Thank you!"
+        sorry.style.display = "flex"
       } else {
         inputTwo.classList.remove("white");
       }
